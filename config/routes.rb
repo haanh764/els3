@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  resources :users do
+  end
+  root to: 'static_pages#home'
+  match '/signup',  to: 'users#new',            via: 'get'
+
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
