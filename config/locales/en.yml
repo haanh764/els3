@@ -1,6 +1,8 @@
 en:
   about_page:
     about: "ABOUT US"
+  controller:
+    welcome: "Welcome to E-learning!"
   help_page:
     help: "HELP"
   home_page:
@@ -14,3 +16,12 @@ en:
     sign_in: "Sign in"
     sign_up: "Sign up now!"
     welcome: "WELCOME"
+  email: "Email"
+  error: "The form contains "
+  name: "Name"
+  new_user: "New to E-LEARNING? Sign Up"
+  password: "Password"
+  password_confirmation: "Password Confirmation"
+  remember: "Remember me"
+  signup: "Sign up"
+  submit: "Create my account"
