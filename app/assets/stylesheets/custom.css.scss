@@ -8,37 +8,25 @@ $grayMediumLight: #eaeaea;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-/* universal */
 header {
   padding-top: 0px;
 }
-
 html {
   overflow-y: scroll;
 }
-
 body {
   padding-top: 250px;
-  background:url('bg1.jpg') no-repeat center center;
-
-/* Ensure the html element ;
-always takes up the full height of the browser window */
-  min-height:100%;
-
-/* The Magic */
-  background-size:cover;
+  background: url("bg1.jpg") no-repeat center;
+  min-height: 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
-
 section {
   overflow: auto;
 }
-
 textarea {
   resize: vertical;
 }
-
 .center {
   height: 500px;
   text-align: center ;
@@ -47,14 +35,10 @@ textarea {
     margin-bottom: 30px;
   }
 }
-
-/* typography */
-
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   color: #000000;
 }
-
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
@@ -62,7 +46,6 @@ h1 {
   text-align: center;
   color: #ffffff;
 }
-
 h2 {
   font-size: 20px;
   line-height: 20pt;
@@ -71,15 +54,11 @@ h2 {
   font-weight: bold;
   color: #ffffff;
 }
-
 p {
   font-size: 1.1em;
   line-height: 1.7em;
   color: #000000;
 }
-
-/* header */
-
 #logo {
   float: left;
   margin-right: 10px;
@@ -95,9 +74,6 @@ p {
     text-decoration: none;
   }
 }
-
-/* footer */
-
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -121,9 +97,6 @@ footer {
     }
   }
 }
-
-/* miscellaneous */
-
 .debug_dump {
   clear: both;
   float: left;
@@ -131,9 +104,6 @@ footer {
   margin-top: 45px;
   @include box_sizing;
 }
-
-/* sidebar */
-
 aside {
   section {
     padding: 10px 0;
@@ -156,7 +126,6 @@ aside {
     }
   }
 }
-
 .stats {
   overflow: auto;
   a {
@@ -178,28 +147,22 @@ aside {
     display: block;
   }
 }
-
 .user_avatars {
   overflow: auto;
   margin-top: 10px;
-  .gravatar {
+  .avatar {
     margin: 1px 1px;
   }
 }
-
-/* forms */
-
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
   @include box_sizing;
 }
-
 input {
   height: auto !important;
 }
-
 #error_explanation {
   color: #f00;
   ul {
@@ -207,7 +170,6 @@ input {
     margin: 0 0 18px 0;
   }
 }
-
 .content {
   padding-top: 10px;
   display: block;
@@ -240,10 +202,10 @@ aside {
   padding-top: 80px;
   padding-left: 600px;
   text-align: justify;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   padding-bottom: 80px;
 }
-.btn.btn-large.btn-primary{
+.btn.btn-large.btn-primary {
   color: #ffffff;
 }
 .checkbox {
