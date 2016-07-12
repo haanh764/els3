@@ -1,0 +1,19 @@
+<% provide(:title, t("sign_in")) %>
+<h1><span style="font-weight: bold;"><%= t("sign_in") %></span></h1>
+<div class= "col-md-4 col-md-offset-4">
+  <%= form_for(:session, url: sessions_path) do |f| %>
+
+    <%= f.label :email, t("name") %>
+    <%= f.text_field :email %>
+
+    <%= f.label :password, t("password") %>
+    <%= f.password_field :password %>
+
+    <div class="checkbox pull-left">
+      <label><input type="checkbox"><div class="span1"><%= t("remember") %></div></label>
+    </div>
+
+    <%= f.submit t("sign_in"), class: "btn btn-large btn-primary" %>
+  <% end %>
+  <br><%= t("new_user2") %><%= link_to t("home_page.sign_up"), signup_path %></p>
+</div>
